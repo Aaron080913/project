@@ -14,3 +14,26 @@
     justify-content: center;
     align-items: center;
 }
+/*title of the page*/
+.title{
+    position: absolute;
+    top: 0;
+    font-size: 3rem;
+    z-index: 2;
+    margin-top: 5px;
+}
+.score-area{
+    display: flex;
+    width: 40vw;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    z-index: 1;    
+}
+.choice{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.moves-left{
+    font-size: 2rem;
+}
