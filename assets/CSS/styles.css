@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 /* universal selector - Applies to whole document */
 * {
     padding: 0;
@@ -5,13 +6,14 @@
     box-sizing: border-box;
     background: #3a3a3a;
     color: #fff;
-}
+    font-family: 'Merriweather', serif;
+    }
 
 /* To center everything in game */
 .game {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 86vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -22,16 +24,16 @@
     position: absolute;
     top: 0;
     font-size: 4rem;
-    z-index: 2;
+    z-index: 3;
 }
 
 /* Score Board */
 .score {
     display: flex;
-    width: 30vw;
+    width: 40vw;
     justify-content: space-evenly;
     position: absolute;
-    top: 70px;
+    top: 80px;
     z-index: 1;
 }
 
@@ -64,6 +66,9 @@
     border: none;  
     cursor: pointer;
 }
+.r-img{
+    max-width: fit-content;
+}
 
 .move {
     font-size: 2rem;
@@ -91,8 +96,7 @@
     display: flex;
     flex-direction: column;
     margin-top: auto;
-
-}
+    }
 
 /* Responsive Design */
 @media screen and (max-width: 612px) {
