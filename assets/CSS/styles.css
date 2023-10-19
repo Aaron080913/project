@@ -30,10 +30,31 @@
     top: 70px;
     z-index: 1;    
 }
+.p-count,.c-count {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
 .choice{
     font-size: 3rem;
     font-weight: bold;
 }
+.rock, .paper, .scissors{
+    padding: 1rem;
+    width: 100px;
+    background: blue;
+    cursor: pointer;
+}
 .moves-left{
+    font-size: 2rem;
+}
+.reload {
+    display: none;
+    padding: 1rem;
+    background: blue;
+    cursor: pointer;
+}
+.result{
+    margin-top: 20px;
     font-size: 2rem;
 }
