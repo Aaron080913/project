@@ -1,12 +1,14 @@
-/* default styles */
-*{
+/* universal selector - Applies to whole document */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     background: #3a3a3a;
     color: #fff;
 }
-.game-area{
+
+/* To center everything in game */
+.game {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -14,47 +16,85 @@
     justify-content: center;
     align-items: center;
 }
-/*title of the page*/
-.title{
+
+/* Title of the game */
+.title {
     position: absolute;
     top: 0;
-    font-size: 3rem;
+    font-size: 4rem;
     z-index: 2;
-    margin-top: 5px;
 }
-.score-area{
+
+/* Score Board */
+.score {
     display: flex;
-    width: 40vw;
+    width: 30vw;
     justify-content: space-evenly;
     position: absolute;
     top: 70px;
-    z-index: 1;    
+    z-index: 1;
 }
-.p-count,.c-count {
+
+/* Score  */
+.p-count,
+.c-count {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1rem;
 }
-.choice{
-    font-size: 3rem;
+
+/* displaying three buttons in one line */
+.options {
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+/* Styling on all three buttons */
+.rock,
+.paper,
+.scissor {
+    padding: 0.8rem;
+    width: 100px;
+    border-radius: 10px;
+    background: blue;
+    outline: none;
+    border-color: none;
+    border: none;  
+    cursor: pointer;
+}
+
+.move {
+    font-size: 2rem;
     font-weight: bold;
 }
-.rock, .paper, .scissors{
-    padding: 1rem;
-    width: 100px;
-    background: blue;
-    cursor: pointer;
-}
-.moves-left{
-    font-size: 2rem;
-}
+
+/* Reload button style */
 .reload {
     display: none;
+    margin-top: 2rem;
     padding: 1rem;
     background: blue;
+    outline: none;
+    border: none;
+    border-radius: 10px;
     cursor: pointer;
 }
-.result{
+
+.result {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 612px) {
+    .title {
+        text-align: center;
+    }
+
+    .score {
+        position: absolute;
+        top: 200px;
+        width: 100vw;
+    }
