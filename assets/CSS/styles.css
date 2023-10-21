@@ -7,13 +7,13 @@
     background: #3a3a3a;
     color: #fff;
     font-family: 'Merriweather', serif;
-    }
+}
 
 /* To center everything in game */
 .game {
     display: flex;
     flex-direction: column;
-    height: 86vh;
+    height: 100vh;
     width: 100vw;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
     position: absolute;
     top: 0;
     font-size: 4rem;
-    z-index: 3;
+    z-index: 2;
 }
 
 /* Score Board */
@@ -51,6 +51,8 @@
     width: 50vw;
     justify-content: space-evenly;
     margin-top: 2rem;
+    position: relative;
+    top: 6%;
 }
 
 /* Styling on all three buttons */
@@ -62,17 +64,20 @@
     border-radius: 10px;
     background: blue;
     outline: none;
-    border-color: none;
-    border: none;  
+    border-color: blue;
+    border: none;
     cursor: pointer;
-}
-.r-img{
-    max-width: fit-content;
 }
 
 .move {
     font-size: 2rem;
     font-weight: bold;
+    position: relative;
+    top: 6%;
+}
+.movesleft{
+    position: relative;
+    top: 6%;
 }
 
 /* Reload button style */
@@ -88,15 +93,38 @@
 }
 
 .result {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 1.2rem;
 }
-.rules {
-    text-align: center;
+.display-choice{
     display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    }
+    justify-content: space-evenly;
+    top: 10%;
+    position: relative;
+    
+}
+.player{
+        width: 45%;
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+#player-image{
+    width: 75%;
+    align-items: center;
+  
+}
+.computer{
+    width: 45%;
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+}
+#computer-image{
+    width: 75%;
+}
 
 /* Responsive Design */
 @media screen and (max-width: 612px) {
@@ -109,3 +137,8 @@
         top: 200px;
         width: 100vw;
     }
+
+    .options {
+        width: 100vw;
+    }
+}
