@@ -10,6 +10,8 @@ const game = () => {
         const rockBtn = document.querySelector('.rock');
         const paperBtn = document.querySelector('.paper');
         const scissorBtn = document.querySelector('.scissor');
+        const playerImage = document.getElementById("player-image")
+        const computerImage = document.getElementById("computer-image")
         const playerOptions = [rockBtn, paperBtn, scissorBtn];
         const computerOptions = ['rock', 'paper', 'scissors'];
 
@@ -20,7 +22,6 @@ const game = () => {
                 const movesLeft = document.querySelector('.movesleft');
                 moves++;
                 movesLeft.innerText = `Moves Left: ${10 - moves}`;
-
 
                 const choiceNumber = Math.floor(Math.random() * 3);
                 const computerChoice = computerOptions[choiceNumber];

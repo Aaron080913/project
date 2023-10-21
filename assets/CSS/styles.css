@@ -24,7 +24,7 @@
     position: absolute;
     top: 0;
     font-size: 4rem;
-    z-index: 2;
+    
 }
 
 /* Score Board */
@@ -73,13 +73,7 @@
     font-size: 2rem;
     font-weight: bold;
     position: relative;
-    top: 6%;
 }
-.movesleft{
-    position: relative;
-    top: 6%;
-}
-
 /* Reload button style */
 .reload {
     display: none;
@@ -95,35 +89,6 @@
 .result {
     margin-top: 50px;
     font-size: 1.2rem;
-}
-.display-choice{
-    display: flex;
-    justify-content: space-evenly;
-    top: 10%;
-    position: relative;
-    
-}
-.player{
-        width: 45%;
-    display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-}
-#player-image{
-    width: 75%;
-    align-items: center;
-  
-}
-.computer{
-    width: 45%;
-    display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-}
-#computer-image{
-    width: 75%;
 }
 
 /* Responsive Design */
