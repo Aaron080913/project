@@ -1,36 +1,30 @@
 # Rock Paper Scissors
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Rock Paper Scissors is a site that is aimed to show how javascript works in a family fun game online, it is targeted toward people who are new to java, and people looking to play rock paper scissors against the computer. It is A fully responsive game that allows the user to play rock paper scissors agasint the computer for 10 times before resetting.
 
-For example, Love Maths is a site that hopes to demonstrate how pure JavaScript works in a real-world context. The site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also maths. Love Maths is a fully responsive JavaScript maths game that will allow users to add, subtract, multiply and divide numbers. 
+ 
 
-![Responsice Mockup](media/love_maths_mockup.png)
-
-## Features 
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+![Responsice Mockup](assets/Images/Web%20capture_25-10-2023_092_ui.dev.jpeg)
 
 ### Existing Features
 
-- __The Love Maths Logo and Heading__
+- __The Rock Paper Scissors Heading__
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+  - Featured at the top of the page, the Rock Paper Scissors heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![Logo](media/love_maths_logo.png)
+![Heading](assets/Images/readme-img/Web%20capture_24-10-2023_21393_aaron080913.github.io.jpeg)
 
-- __The Game Area__
+- __The Score Area__
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+  - This section will allow the user to see the current score of the game.
+  
+![Score](assets/Images/readme-img/Web%20capture_24-10-2023_214231_aaron080913.github.io.jpeg)
 
-![Game](media/love_maths_icons.png)
+- __The move section__
 
-- __The Question section__
+- the Move section is where the user will be able to see how many moves are left and reminding to chose a move.
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
-
-![Question](media/love_maths_question.png)
+![Move](assets/Images/readme-img/Web%20capture_24-10-2023_214258_aaron080913.github.io.jpeg)
 
 - __The Score Area__
 

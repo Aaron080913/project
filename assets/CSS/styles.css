@@ -95,8 +95,6 @@
     }
     .move{
         position: relative;
-        top: 30%;
-
     }
     .score {
         position: absolute;
