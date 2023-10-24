@@ -93,17 +93,24 @@
     .title {
         text-align: center;
     }
+    .move{
+        position: relative;
+        top: 13%;
+
+    }
 
     .score {
         position: absolute;
         top: 200px;
         width: 100vw;
     }
-    .move{
-        position: relative;
-        top: 350px;
-    }
-
     .options {
+        position: relative;
         width: 100vw;
-    }}
+        top: 20%;
+    }
+    .result{
+        position: relative;
+        top: 5%;
+    }
+}
