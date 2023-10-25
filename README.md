@@ -2,9 +2,7 @@
 
 Rock Paper Scissors is a site that is aimed to show how javascript works in a family fun game online, it is targeted toward people who are new to java, and people looking to play rock paper scissors against the computer. It is A fully responsive game that allows the user to play rock paper scissors agasint the computer for 10 times before resetting.
 
- 
-
-![Responsice Mockup](assets/Images/Web%20capture_25-10-2023_092_ui.dev.jpeg)
+[Responsice Mockup](assets/Images/Web%20capture_25-10-2023_092_ui.dev.jpeg)
 
 ### Existing Features
 
@@ -12,33 +10,40 @@ Rock Paper Scissors is a site that is aimed to show how javascript works in a fa
 
   - Featured at the top of the page, the Rock Paper Scissors heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-![Heading](assets/Images/readme-img/Web%20capture_24-10-2023_21393_aaron080913.github.io.jpeg)
+[Heading](assets/Images/readme-img/Web%20capture_24-10-2023_21393_aaron080913.github.io.jpeg)
 
 - __The Score Area__
 
   - This section will allow the user to see the current score of the game.
   
-![Score](assets/Images/readme-img/Web%20capture_24-10-2023_214231_aaron080913.github.io.jpeg)
+[Score](assets/Images/readme-img/Web%20capture_24-10-2023_214231_aaron080913.github.io.jpeg)
 
 - __The move section__
 
-- the Move section is where the user will be able to see how many moves are left and reminding to chose a move.
+- the Move section is where the user will be able to see how many moves are left.
 
-![Move](assets/Images/readme-img/Web%20capture_24-10-2023_214258_aaron080913.github.io.jpeg)
+[Move](assets/Images/readme-img/Web%20capture_24-10-2023_214258_aaron080913.github.io.jpeg)
 
-- __The Score Area__
+- __The choice section__
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+  - This Section is where the user will make their choice of move out of Rock, paper or scissors.
 
-![score](media/love_maths_answer.png)
+![Choice](assets/Images/readme-img/Web%20capture_24-10-2023_214322_aaron080913.github.io.jpeg)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __Result of choice__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- This Section is where you will see the result of the choice that was made between the player vs the computer.
 
-### Features Left to Implement
+![result-p](assets/Images/readme-img/Web%20capture_24-10-2023_214516_aaron080913.github.io.jpeg)
+![result-t](assets/Images/readme-img/Web%20capture_24-10-2023_21465_aaron080913.github.io.jpeg)
+![result-c](assets/Images/readme-img/Web%20capture_24-10-2023_22616_aaron080913.github.io.jpeg)
 
-- Another feature idea
+- __Final Result of Game__
+
+-This section is where the user will see the final overall result of the game.
+
+![gameover-l](assets/Images/readme-img/Web%20capture_24-10-2023_22656_aaron080913.github.io.jpeg)
+![gameover-w](assets/Images/readme-img/Web%20capture_24-10-2023_22743_aaron080913.github.io.jpeg)
 
 ## Testing 
 
@@ -49,7 +54,6 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ### Validator Testing 
 
