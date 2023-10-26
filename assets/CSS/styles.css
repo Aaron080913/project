@@ -59,13 +59,21 @@
     padding: 0.8rem;
     width: 100px;
     border-radius: 10px;
-    background: blue;
+    background: #3a3a3a;
     outline: none;
-    border-color: blue;
+    border-color: black;
     border: none;
     cursor: pointer;
 } 
-
+.rock hover {
+    border-color: #fff;
+}
+.paper hover {
+    border-color: #fff;
+}
+.scissor hover {
+    border-color: #fff;
+}
 .move {
     font-size: 2rem;
     font-weight: bold;
